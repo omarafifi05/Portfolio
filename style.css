@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  zoom: 75%; /* Zoom to 90% */
 }
 
 html {
@@ -223,6 +224,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+
 }
 
 .btn {
@@ -231,6 +233,7 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+  margin-top: 20px;
 }
 
 .btn-color-1,
@@ -335,6 +338,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .article-container {
@@ -345,6 +349,11 @@ section {
   gap: 2.5rem;
   justify-content: space-around;
 }
+.experience-details-container :hover{
+  cursor: pointer;
+ 
+}
+
 
 article {
   display: flex;
